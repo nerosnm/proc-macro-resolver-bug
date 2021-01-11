@@ -1,0 +1,9 @@
+[package]
+name = "proc-macro-resolver-bug"
+version = "0.1.0"
+authors = ["Søren Mortensen <soren@neros.dev>"]
+edition = "2018"
+resolver = "2"
+
+[dependencies.inner-proc-macros]
+path = "inner-proc-macros"

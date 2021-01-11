@@ -1,0 +1,11 @@
+[lib]
+proc-macro = true
+
+[package]
+name = "inner-proc-macros"
+version = "0.1.0"
+authors = ["Søren Mortensen <soren@neros.dev>"]
+edition = "2018"
+
+[dependencies]
+proc-macro2 = "1.0.*"
