@@ -6,6 +6,7 @@ name = "inner-proc-macros"
 version = "0.1.0"
 authors = ["Søren Mortensen <soren@neros.dev>"]
 edition = "2018"
+resolver = "2"
 
 [dependencies]
 proc-macro2 = "1.0.*"
